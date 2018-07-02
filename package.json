@@ -12,7 +12,8 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build": "node build/build.js",
-    "mock": "node mock/app.js"
+    "mock": "node mock/app.js",
+    "check": "cp .hooks/* .git/hooks/"
   },
   "dependencies": {
     "axios": "^0.18.0",
