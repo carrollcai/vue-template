@@ -8,7 +8,7 @@ const actions = {
       commit(types.DEMO_LIST, res.data.data);
     }, err => {
       if (err) {
-        commit(types.DEMO_LIST, {})
+        commit(types.DEMO_LIST, {});
       }
     });
   }
